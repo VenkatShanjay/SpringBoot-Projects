@@ -1,5 +1,11 @@
 
 server:
   servlet:
-    context-path: api
+    context-path: /api
   port: 8089
+spring:
+  data:
+    mongodb:
+      database: mydb
+      host: 127.0.0.1
+      port: 27017
